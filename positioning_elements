@@ -1,0 +1,57 @@
+index.html:
+
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div ><img src="Default.jpg" style="width:50%;"></div>
+        <div class="paragraph1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos error reprehenderit fugiat enim, repudiandae officiis illum amet est ducimus consequuntur, reiciendis cumque saepe, sequi nisi inventore iure quam blanditiis. Eum temporibus adipisci, sequi deserunt autem dolore amet! Vero dolor cumque esse fuga aut fugit nemo id, dolore et, minus harum.</p></div>
+        <div class="paragraph2"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi, id delectus repellat, ratione fugit saepe tenetur numquam sapiente dolorem sed. Eos ut numquam, delectus nihil laudantium quia doloremque temporibus sit, dolorem error, perferendis ratione dolore officia aperiam praesentium voluptatum ex nostrum iste dolorum magni maxime sint. Quam, laborum quae?</p></div>
+    </div>
+</body>
+</html>
+
+
+style.css:
+
+
+body{
+    background-color: pink;
+    height: 100%;
+    width:100%;
+}
+.main{
+    height: 800px;
+    width:100%;
+    position: relative;
+}
+img{
+    position:absolute;
+    top:0;
+    right:0;
+    margin:10px;
+}
+.paragraph1{
+    width:50%;
+    position:absolute;
+    background-color: aqua;
+    bottom:0;
+    left:0;
+    margin:15px;
+}
+.paragraph2{
+    width:50%;
+    position:absolute;
+    background-color: blue;
+    top:450px;
+    left:350px;
+    right:100px;
+}
