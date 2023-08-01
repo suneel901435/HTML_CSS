@@ -1,0 +1,58 @@
+index.html:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="one" align="center"></div>
+        <div class="two" align="center"></div>
+        <div class="three" align="center"></div>
+    </div>
+</body>
+</html>
+
+
+
+style.css:
+
+
+body{
+    background-color: pink;
+}
+.main{
+    height: 700px;
+    width:100%;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .one
+{
+    height: 600px;
+    width:33%;
+    background-color: blue;
+    border: 1px solid green;
+}
+.main .two
+{
+    height: 600px;
+    width: 33%;
+    background-color: orange;
+    border:1px solid gray;
+}
+.main .three
+{
+    height: 600px;
+    width: 33%;
+    background-color: aquamarine;
+    border:1px solid yellow;
+}
